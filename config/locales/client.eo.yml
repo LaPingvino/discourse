@@ -5,7 +5,7 @@
 # To validate this YAML file after you change it, please paste it into
 # http://yamllint.com/
 
-en:
+eo:
   js:
     number:
       human:
@@ -13,8 +13,8 @@ en:
           format: ! '%n %u'
           units:
             byte:
-              one: Byte
-              other: Bytes
+              one: Bitoko
+              other: Bitokoj
             gb: GB
             kb: KB
             mb: MB
@@ -38,45 +38,45 @@ en:
           one:   "1h"
           other: "%{count}h"
         x_days:
-          one:   "1d"
-          other: "%{count}d"
+          one:   "1t"
+          other: "%{count}t"
         about_x_years:
-          one:   "1y"
-          other: "%{count}y"
+          one:   "1j"
+          other: "%{count}j"
         over_x_years:
-          one:   "> 1y"
-          other: "> %{count}y"
+          one:   "> 1j"
+          other: "> %{count}j"
         almost_x_years:
-          one:   "1y"
-          other: "%{count}y"
+          one:   "1j"
+          other: "%{count}j"
       medium:
         x_minutes:
           one: "1 min"
-          other: "%{count} mins"
+          other: "%{count} min"
         x_hours:
-          one: "1 hour"
-          other: "%{count} hours"
+          one: "1 horo"
+          other: "%{count} horoj"
         x_days:
-          one: "1 day"
-          other: "%{count} days"
+          one: "1 tago"
+          other: "%{count} tagoj"
       medium_with_ago:
         x_minutes:
-          one: "1 min ago"
-          other: "%{count} mins ago"
+          one: "antaŭ 1 min"
+          other: "antaŭ %{count} min"
         x_hours:
-          one: "1 hour ago"
-          other: "%{count} hours ago"
+          one: "antaŭ 1 horo"
+          other: "antaŭ %{count} horoj"
         x_days:
-          one: "1 day ago"
-          other: "%{count} days ago"
+          one: "antaŭ 1 tago"
+          other: "antaŭ %{count} tagoj"
     share:
-      topic: 'share a link to this topic'
-      post: 'share a link to this post'
-      close: 'close'
-      twitter: 'share this link on Twitter'
-      facebook: 'share this link on Facebook'
-      google+: 'share this link on Google+'
-      email: 'send this link in an email'
+      topic: 'kunhavigi ligilon al ĉi tiu temo'
+      post: 'kunhavigi ligilon al ĉi tiu afiŝo'
+      close: 'fermi'
+      twitter: 'kunhavigi ĉi tiun ligilon per Twitter'
+      facebook: 'kunhavigi ĉi tiun ligilon per Facebook'
+      google+: 'kunhavigi ĉi tiun ligilon per Google+'
+      email: 'kunhavigi ĉi tiun ligilon per retpoŝto'
 
     edit: 'edit the title and category of this topic'
     not_implemented: "That feature hasn't been implemented yet, sorry!"
